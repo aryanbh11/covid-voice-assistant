@@ -11,7 +11,7 @@ The following python packages need to be installed on your machine/environment i
 - SpeechRecognition
 - pyaudio
 
-All the above mentioned packages can be simply installed by `pip install <package_name>` where package names are case sensitive. However, to install pyaudio on OSX you first need to install homebrew and then run `brew install portaudio` before the pip command.
+All the above mentioned packages can be simply installed by `pip install <package_name>` where package names are case sensitive. However, to install pyaudio on OSX you first need to install homebrew and then run `brew install portaudio` before the `pip` command.
 
 ### Running:
 Once all packages are installed, from project directory: `python3 voice_assistant.py`
@@ -28,7 +28,7 @@ When the program is started, `Listening...` will be printed on the console once 
 - How many cases are critical in France? 
 
 ### Special Phrases:
-- To end the program just say 'stop' or 'exit'
+- To end the program say 'stop' or 'exit'
 - To update the data while program is running, say 'update' or 'update data'
 
 ## Extension Plans
