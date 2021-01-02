@@ -17,8 +17,8 @@ BASIC_PATTERNS = {
 }
 
 ACTIVE_CRITICAL_PATTERNS = {
-    re.compile("[\w\s]+ active cases [\w\s]+"): lambda country: scraper.get_active_cases(country),
-    re.compile("[\w\s]+ critical cases [\w\s]+"): lambda country: scraper.get_critical_cases(country),
+    re.compile("[\w\s]+ active [\w\s]+"): lambda country: scraper.get_active_cases(country),
+    re.compile("[\w\s]+ critical [\w\s]+"): lambda country: scraper.get_critical_cases(country),
 }
 
 REGIONAL_PATTERNS = {
