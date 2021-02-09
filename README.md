@@ -34,3 +34,4 @@ When the program is started, `Listening...` will be printed on the console once 
 ## Extension Plans
 - Implement GUI with a **speak** button which the user can press to talk
 - Add feature to locate nearest COVID Clinic to user 
+- Convert into a Web App using recently acquired skills 
